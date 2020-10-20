@@ -4,7 +4,6 @@
 
 
 # Find all common prime factors of numbers 1 - 20
-import math
 
 
 def find_prime_factors(num):
