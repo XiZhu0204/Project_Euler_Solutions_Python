@@ -5,7 +5,7 @@
 import math
 
 
-def checkPrime(x):
+def check_prime(x):
     # 1 and 0 are not prime, all even numbers are not prime
     if x == 1 or x == 0 or x % 2 == 0:
         return False
@@ -25,7 +25,7 @@ number = 600851475143
 largestPrime = 3
 
 for k in range(3, math.ceil(math.sqrt(number)), 2):
-    if number % k == 0 and checkPrime(k):
+    if number % k == 0 and check_prime(k):
         largestPrime = k
 
 print(largestPrime)
