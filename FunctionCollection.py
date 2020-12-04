@@ -28,3 +28,10 @@ def find_prime_factors(num):
             num /= i
             prime_array.append(i)
     return prime_array
+
+
+def read_file_to_1d_array(infile):
+    tempstr = ""
+    for i in infile:
+        tempstr += i.replace("\n", "")
+    return [x for x in tempstr]
