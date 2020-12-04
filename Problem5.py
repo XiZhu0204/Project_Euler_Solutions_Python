@@ -4,7 +4,7 @@
 
 
 # Find all common prime factors of numbers 1 - 20
-from FunctionCollection import find_prime_factors
+from functionCollection import find_prime_factors
 
 primeFactorArray = []
 

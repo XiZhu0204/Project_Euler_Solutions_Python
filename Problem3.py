@@ -3,7 +3,7 @@
 
 # As numbers become large, their largest prime factor is generally less than its square root
 import math
-from FunctionCollection import check_prime
+from functionCollection import check_prime
 
 
 number = 600851475143

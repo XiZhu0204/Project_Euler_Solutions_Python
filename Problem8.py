@@ -7,7 +7,7 @@ Find the thirteen adjacent digits in the 1000-digit number that have the greates
 What is the value of this product?
 """
 
-from FunctionCollection import read_file_to_1d_array
+from functionCollection import read_file_to_1d_array
 
 inData = open("Problem8_Input", "r")
 
