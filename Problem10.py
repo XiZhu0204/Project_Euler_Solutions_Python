@@ -16,7 +16,6 @@ for i in range(2000000):
 print(result)
 
 
-
 """
 Note that using the implemented sieve of Eratosthenes in functionCollection is significantly slower
 
