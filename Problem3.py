@@ -13,10 +13,11 @@ def check_prime(x):
     if x == 2:
         return True
 
-    for i in range(3, math.ceil(math.sqrt(x)), 2):
+    for i in range(3, math.ceil(math.sqrt(x)) + 1, 2):
         # increment by two, no need to check even factors
         if x % i == 0:
             return False
+
     # Done for loop, must be prime
     return True
 
