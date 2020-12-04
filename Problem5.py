@@ -4,19 +4,7 @@
 
 
 # Find all common prime factors of numbers 1 - 20
-
-
-def find_prime_factors(num):
-    prime_array = []
-    while num % 2 == 0:
-        num /= 2
-        prime_array.append(2)
-    for i in range(3, int(num + 1) + 1, 2):
-        while num % i == 0:
-            num /= i
-            prime_array.append(i)
-    return prime_array
-
+from FunctionCollection import find_prime_factors
 
 primeFactorArray = []
 
@@ -36,6 +24,6 @@ for k in range(2, 20):
         if occurrenceCount > maxOccurrence:
             maxOccurrence = occurrenceCount
 
-    result = result * (k**maxOccurrence)
+    result = result * (k ** maxOccurrence)
 
 print(result)
